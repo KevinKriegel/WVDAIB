@@ -62,5 +62,5 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force
 Invoke-Expression -Command '.\Win10_VirtualDesktop_Optimize.ps1 -WindowsVersion 2009 -Verbose'
 #>
 
-Start sleep
+#Start sleep
 Start-Sleep -Seconds 10
