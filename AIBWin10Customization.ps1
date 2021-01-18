@@ -1,5 +1,6 @@
 ﻿#Script to setup golden image with Azure Image Builder
 #Kevin Jagiella - Elgon
+#Kevin Jagiella sucks
 
 #Create temp folder
 New-Item -Path 'C:\temp' -ItemType Directory -Force | Out-Null
