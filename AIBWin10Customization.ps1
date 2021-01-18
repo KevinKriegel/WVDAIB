@@ -32,6 +32,7 @@ Invoke-Expression -Command 'c:\temp\websocket.msi /quiet'
 #Start sleep
 Start-Sleep -Seconds 10
 
+<#
 #Install WVD Optimization script 
 #Initialization Part
 $verboseSettings = $VerbosePreference
@@ -59,6 +60,7 @@ Expand-Archive -LiteralPath $optimalizationScriptZIP -DestinationPath $Optimaliz
 Set-Location "$OptimalizationFolderName\Virtual-Desktop-Optimization-Tool-master"
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force
 Invoke-Expression -Command '.\Win10_VirtualDesktop_Optimize.ps1 -WindowsVersion 2009 -Verbose'
+#>
 
 Start sleep
 Start-Sleep -Seconds 10
